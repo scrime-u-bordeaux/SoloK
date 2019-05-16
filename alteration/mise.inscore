@@ -1,0 +1,80 @@
+# cleanup
+/ITL/scene/* del;
+
+# background
+/ITL/scene color 0 0 0;
+
+# set
+/ITL/scene/Karlax_00 set img '/home/champsonore/Images/1. Altération/00 Karlax-8983.jpg';     
+/ITL/scene/Presentation set txt 'Altérations'; 
+/ITL/scene/Sous_titre set txt 'l\'intonation primitive';         
+/ITL/scene/Alteration_1 set img '/home/champsonore/Images/1. Altération/1 Alteration-0756.jpg';     
+/ITL/scene/Alteration_2 set img '/home/champsonore/Images/1. Altération/2 Alteration-1648.jpg';        
+/ITL/scene/Alteration_3 set img '/home/champsonore/Images/1. Altération/3 Alteration-3050.jpg';        
+/ITL/scene/Alteration_4 set img '/home/champsonore/Images/1. Altération/4 Alteration-0205.jpg';        
+/ITL/scene/Alteration_5 set img '/home/champsonore/Images/1. Altération/5 Alteration-1316.jpg';        
+/ITL/scene/Alteration_6 set img '/home/champsonore/Images/1. Altération/6 Alteration-1939.jpg';        
+/ITL/scene/Alteration_7 set img '/home/champsonore/Images/1. Altération/7 Alteration-1948.jpg';        
+/ITL/scene/Alteration_8 set img '/home/champsonore/Images/1. Altération/8 Alteration-36.jpg';          
+/ITL/scene/Alteration_9 set img '/home/champsonore/Images/1. Altération/9 Alteration-8206.jpg';
+/ITL/scene/Alteration_10 set img '/home/champsonore/Images/1. Altération/10 Alteration-9846.jpg';       
+/ITL/scene/Alteration_11 set img '/home/champsonore/Images/1. Altération/11 Alteration-1875.jpg';
+/ITL/scene/Alteration_12 set img '/home/champsonore/Images/1. Altération/12 Alteration-2211.jpg'; 
+/ITL/scene/Alteration_13 set img '/home/champsonore/Images/1. Altération/13 Alteration-7810.jpg'; 
+/ITL/scene/Alteration_14 set img '/home/champsonore/Images/1. Altération/14 Alteration-3156.jpg'; 
+/ITL/scene/Alteration_15 set img '/home/champsonore/Images/1. Altération/15 Alteration-6222.jpg'; 
+/ITL/scene/Alteration_16 set img '/home/champsonore/Images/1. Altération/16 Alteration-2288.jpg'; 
+
+# resize
+/ITL/scene/Karlax_00 scale 0.1995; 
+/ITL/scene/Presentation fontSize 72;
+/ITL/scene/Sous_titre fontSize 60;  
+/ITL/scene/Alteration_1 scale 0.306;     
+/ITL/scene/Alteration_2 scale 0.148;        
+/ITL/scene/Alteration_3 scale 0.305;        
+/ITL/scene/Alteration_4 scale 0.29;        
+/ITL/scene/Alteration_5 scale 0.318;        
+/ITL/scene/Alteration_6 scale 0.148;        
+/ITL/scene/Alteration_7 scale 0.147;        
+/ITL/scene/Alteration_8 scale 0.341;          
+/ITL/scene/Alteration_9 scale 0.435;
+/ITL/scene/Alteration_10 scale 0.2; 
+/ITL/scene/Alteration_11 scale 0.07;
+/ITL/scene/Alteration_12 scale 0.1; 
+/ITL/scene/Alteration_13 scale 0.215;
+/ITL/scene/Alteration_14 scale 0.558;
+/ITL/scene/Alteration_15 scale 0.5;
+/ITL/scene/Alteration_16 scale 0.15;
+
+# reposition
+/ITL/scene/Presentation x 0.8;
+/ITL/scene/Sous_titre x 0.55;
+/ITL/scene/Sous_titre y 0.2;
+/ITL/scene/Alteration_11 x -0.8;     
+/ITL/scene/Alteration_12 x 0.8;
+/ITL/scene/Alteration_15 x -2.8;  
+/ITL/scene/Alteration_15 y -2.1;  
+
+# color
+/ITL/scene/Presentation color 255 255 255;  
+/ITL/scene/Sous_titre color 255 255 255;
+
+# disapear
+/ITL/scene/Karlax_00 alpha -1.;  
+/ITL/scene/Presentation alpha -1.; 
+/ITL/scene/Sous_titre alpha -1.; 
+/ITL/scene/Alteration_1 alpha -1.;     
+/ITL/scene/Alteration_2 alpha -1.;        
+/ITL/scene/Alteration_3 alpha -1.;        
+/ITL/scene/Alteration_4 alpha -1.;        
+/ITL/scene/Alteration_5 alpha -1.;       
+/ITL/scene/Alteration_6 alpha -1.;        
+/ITL/scene/Alteration_7 alpha -1.;        
+/ITL/scene/Alteration_8 alpha -1.;          
+/ITL/scene/Alteration_9 alpha -1.;
+/ITL/scene/Alteration_10 alpha -1.; 
+/ITL/scene/Alteration_11 alpha -1.; 
+/ITL/scene/Alteration_12 alpha -1.;
+/ITL/scene/Alteration_13 alpha -1.;
+/ITL/scene/Alteration_14 alpha -1.; 
+#/ITL/scene/Alteration_16 alpha -1.; 
