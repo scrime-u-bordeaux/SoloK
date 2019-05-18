@@ -1,1 +1,1 @@
-[embed]dossier diffusion solok mai 2019L.pdf[/embed]
+'dossier diffusion solok mai 2019L.pdf'
