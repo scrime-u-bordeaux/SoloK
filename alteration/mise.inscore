@@ -1,32 +1,88 @@
+#log
+/ITL/log show 1;
+
 # cleanup
 /ITL/scene/* del;
 
 # background
 /ITL/scene color 0 0 0;
+/ITL/scene opengl 0;
 
 # set
-/ITL/scene/Karlax_00 set img '/home/champsonore/Images/1. Altération/00 Karlax-8983.jpg';     
+/ITL/scene/Karlax_00 set img '/home/champsonore/Documents/proj/SoloK/alteration/medias/00 Karlax-8983.jpg';     
 /ITL/scene/Presentation set txt 'Altérations'; 
 /ITL/scene/Sous_titre set txt 'l\'intonation primitive';         
-/ITL/scene/Alteration_1 set img '/home/champsonore/Images/1. Altération/1 Alteration-0756.jpg';     
-/ITL/scene/Alteration_2 set img '/home/champsonore/Images/1. Altération/2 Alteration-1648.jpg';        
-/ITL/scene/Alteration_3 set img '/home/champsonore/Images/1. Altération/3 Alteration-3050.jpg';        
-/ITL/scene/Alteration_4 set img '/home/champsonore/Images/1. Altération/4 Alteration-0205.jpg';        
-/ITL/scene/Alteration_5 set img '/home/champsonore/Images/1. Altération/5 Alteration-1316.jpg';        
-/ITL/scene/Alteration_6 set img '/home/champsonore/Images/1. Altération/6 Alteration-1939.jpg';        
-/ITL/scene/Alteration_7 set img '/home/champsonore/Images/1. Altération/7 Alteration-1948.jpg';        
-/ITL/scene/Alteration_8 set img '/home/champsonore/Images/1. Altération/8 Alteration-36.jpg';          
-/ITL/scene/Alteration_9 set img '/home/champsonore/Images/1. Altération/9 Alteration-8206.jpg';
-/ITL/scene/Alteration_10 set img '/home/champsonore/Images/1. Altération/10 Alteration-9846.jpg';       
-/ITL/scene/Alteration_11 set img '/home/champsonore/Images/1. Altération/11 Alteration-1875.jpg';
-/ITL/scene/Alteration_12 set img '/home/champsonore/Images/1. Altération/12 Alteration-2211.jpg'; 
-/ITL/scene/Alteration_13 set img '/home/champsonore/Images/1. Altération/13 Alteration-7810.jpg'; 
-/ITL/scene/Alteration_14 set img '/home/champsonore/Images/1. Altération/14 Alteration-3156.jpg'; 
-/ITL/scene/Alteration_15 set img '/home/champsonore/Images/1. Altération/15 Alteration-6222.jpg'; 
-/ITL/scene/Alteration_16 set img '/home/champsonore/Images/1. Altération/16 Alteration-2288.jpg'; 
-/ITL/scene/Alteration_17 set img '/home/champsonore/Images/1. Altération/17 Alteration-5204.jpg';
-/ITL/scene/Alteration_18 set img '/home/champsonore/Images/1. Altération/18 Alteration-1951.jpg';
-/ITL/scene/Alteration_19 set img '/home/champsonore/Images/1. Altération/19 Alteration-8031.jpg';
+/ITL/scene/Alteration_1 set img '/home/champsonore/Documents/proj/SoloK/alteration/medias/1 Alteration-0756.jpg';     
+/ITL/scene/Alteration_2 set img '/home/champsonore/Documents/proj/SoloK/alteration/medias/2 Alteration-1648.jpg';        
+/ITL/scene/Alteration_3 set img '/home/champsonore/Documents/proj/SoloK/alteration/medias/3 Alteration-3050.jpg';        
+/ITL/scene/Alteration_4 set img '/home/champsonore/Documents/proj/SoloK/alteration/medias/4 Alteration-0205.jpg';        
+/ITL/scene/Alteration_5 set img '/home/champsonore/Documents/proj/SoloK/alteration/medias/5 Alteration-1316.jpg';        
+/ITL/scene/Alteration_6 set img '/home/champsonore/Documents/proj/SoloK/alteration/medias/6 Alteration-1939.jpg';        
+/ITL/scene/Alteration_7 set img '/home/champsonore/Documents/proj/SoloK/alteration/medias/7 Alteration-1948.jpg';        
+/ITL/scene/Alteration_8 set img '/home/champsonore/Documents/proj/SoloK/alteration/medias/8 Alteration-36.jpg';          
+/ITL/scene/Alteration_9 set img '/home/champsonore/Documents/proj/SoloK/alteration/medias/9 Alteration-8206.jpg';
+/ITL/scene/Alteration_10 set img '/home/champsonore/Documents/proj/SoloK/alteration/medias/10 Alteration-9846.jpg';       
+/ITL/scene/Alteration_11 set img '/home/champsonore/Documents/proj/SoloK/alteration/medias/11 Alteration-1875.jpg';
+/ITL/scene/Alteration_12 set img '/home/champsonore/Documents/proj/SoloK/alteration/medias/12 Alteration-2211.jpg'; 
+/ITL/scene/Alteration_13 set img '/home/champsonore/Documents/proj/SoloK/alteration/medias/13 Alteration-7810.jpg'; 
+/ITL/scene/Alteration_14 set img '/home/champsonore/Documents/proj/SoloK/alteration/medias/14 Alteration-3156.jpg'; 
+/ITL/scene/Alteration_15 set img '/home/champsonore/Documents/proj/SoloK/alteration/medias/15 Alteration-6222.jpg'; 
+/ITL/scene/Alteration_16 set img '/home/champsonore/Documents/proj/SoloK/alteration/medias/16 Alteration-2288.jpg'; 
+/ITL/scene/Alteration_17 set img '/home/champsonore/Documents/proj/SoloK/alteration/medias/17 Alteration-5204.jpg';
+/ITL/scene/Alteration_18 set img '/home/champsonore/Documents/proj/SoloK/alteration/medias/18 Alteration-1951.jpg';
+/ITL/scene/Alteration_19 set img '/home/champsonore/Documents/proj/SoloK/alteration/medias/19 Alteration-8031.jpg';
+
+# aliases
+/ITL/scene/Karlax_00 alias '/ITL/scene/Karlax_00/alpha' alpha; 
+/ITL/scene/Karlax_00 alias '/ITL/scene/Karlax_00/scale' scale; 
+/ITL/scene/Presentation alias '/ITL/scene/Presentation/alpha' alpha; 
+/ITL/scene/Sous_titre alias '/ITL/scene/Sous_titre/alpha' alpha;  
+/ITL/scene/Alteration_1 alias '/ITL/scene/Alteration_1/alpha' alpha;   
+/ITL/scene/Alteration_1 alias '/ITL/scene/Alteration_1/scale' scale;         
+/ITL/scene/Alteration_2 alias '/ITL/scene/Alteration_2/alpha' alpha;  
+/ITL/scene/Alteration_2 alias '/ITL/scene/Alteration_2/scale' scale;              
+/ITL/scene/Alteration_3 alias '/ITL/scene/Alteration_3/alpha' alpha; 
+/ITL/scene/Alteration_3 alias '/ITL/scene/Alteration_3/scale' scale;               
+/ITL/scene/Alteration_4 alias '/ITL/scene/Alteration_4/alpha' alpha; 
+/ITL/scene/Alteration_4 alias '/ITL/scene/Alteration_4/scale' scale;                 
+/ITL/scene/Alteration_5 alias '/ITL/scene/Alteration_5/alpha' alpha;
+/ITL/scene/Alteration_5 alias '/ITL/scene/Alteration_5/scale' scale;                  
+/ITL/scene/Alteration_6 alias '/ITL/scene/Alteration_6/alpha' alpha; 
+/ITL/scene/Alteration_6 alias '/ITL/scene/Alteration_6/scale' scale;               
+/ITL/scene/Alteration_7 alias '/ITL/scene/Alteration_7/alpha' alpha; 
+/ITL/scene/Alteration_7 alias '/ITL/scene/Alteration_7/scale' scale;                 
+/ITL/scene/Alteration_8 alias '/ITL/scene/Alteration_8/alpha' alpha; 
+/ITL/scene/Alteration_8 alias '/ITL/scene/Alteration_8/scale' scale;                   
+/ITL/scene/Alteration_9 alias '/ITL/scene/Alteration_9/alpha' alpha;
+/ITL/scene/Alteration_9 alias '/ITL/scene/Alteration_9/scale' scale;  
+/ITL/scene/Alteration_10 alias '/ITL/scene/Alteration_10/alpha' alpha; 
+/ITL/scene/Alteration_10 alias '/ITL/scene/Alteration_10/scale' scale;   
+/ITL/scene/Alteration_11 alias '/ITL/scene/Alteration_11/alpha' alpha; 
+/ITL/scene/Alteration_11 alias '/ITL/scene/Alteration_11/scale' scale; 
+/ITL/scene/Alteration_12 alias '/ITL/scene/Alteration_12/alpha' alpha; 
+/ITL/scene/Alteration_12 alias '/ITL/scene/Alteration_12/scale' scale; 
+/ITL/scene/Alteration_13 alias '/ITL/scene/Alteration_13/alpha' alpha; 
+/ITL/scene/Alteration_13 alias '/ITL/scene/Alteration_13/scale' scale; 
+/ITL/scene/Alteration_14 alias '/ITL/scene/Alteration_14/alpha' alpha; 
+/ITL/scene/Alteration_14 alias '/ITL/scene/Alteration_14/scale' scale; 
+/ITL/scene/Alteration_14 alias '/ITL/scene/Alteration_14/rotatez' rotatez; 
+/ITL/scene/Alteration_15 alias '/ITL/scene/Alteration_15/alpha' alpha; 
+/ITL/scene/Alteration_15 alias '/ITL/scene/Alteration_15/x' x; 
+/ITL/scene/Alteration_15 alias '/ITL/scene/Alteration_15/y' y; 
+/ITL/scene/Alteration_15 alias '/ITL/scene/Alteration_15/pos' x y; 
+/ITL/scene/Alteration_15 alias '/ITL/scene/Alteration_15/scale' scale; 
+/ITL/scene/Alteration_16 alias '/ITL/scene/Alteration_16/alpha' alpha; 
+/ITL/scene/Alteration_16 alias '/ITL/scene/Alteration_16/scale' scale; 
+/ITL/scene/Alteration_16 alias '/ITL/scene/Alteration_16/z' z; 
+/ITL/scene/Alteration_17 alias '/ITL/scene/Alteration_17/alpha' alpha; 
+/ITL/scene/Alteration_17 alias '/ITL/scene/Alteration_17/scale' scale; 
+/ITL/scene/Alteration_16 alias '/ITL/scene/Alteration_17/z' z; 
+/ITL/scene/Alteration_18 alias '/ITL/scene/Alteration_18/alpha' alpha; 
+/ITL/scene/Alteration_18 alias '/ITL/scene/Alteration_18/scale' scale; 
+/ITL/scene/Alteration_16 alias '/ITL/scene/Alteration_18/z' z; 
+/ITL/scene/Alteration_19 alias '/ITL/scene/Alteration_19/alpha' alpha; 
+/ITL/scene/Alteration_19 alias '/ITL/scene/Alteration_19/scale' scale;
+/ITL/scene/Alteration_16 alias '/ITL/scene/Alteration_19/z' z;  
 
 # resize
 /ITL/scene/Karlax_00 scale 0.1995; 
@@ -64,25 +120,4 @@
 /ITL/scene/Sous_titre color 255 255 255;
 
 # disapear
-/ITL/scene/Karlax_00 alpha -1.;  
-/ITL/scene/Presentation alpha -1.; 
-/ITL/scene/Sous_titre alpha -1.; 
-/ITL/scene/Alteration_1 alpha -1.;     
-/ITL/scene/Alteration_2 alpha -1.;        
-/ITL/scene/Alteration_3 alpha -1.;        
-/ITL/scene/Alteration_4 alpha -1.;        
-/ITL/scene/Alteration_5 alpha -1.;       
-/ITL/scene/Alteration_6 alpha -1.;        
-/ITL/scene/Alteration_7 alpha -1.;        
-/ITL/scene/Alteration_8 alpha -1.;          
-/ITL/scene/Alteration_9 alpha -1.;
-/ITL/scene/Alteration_10 alpha -1.;
-/ITL/scene/Alteration_11 alpha -1.; 
-/ITL/scene/Alteration_12 alpha -1.;
-/ITL/scene/Alteration_13 alpha -1.;
-/ITL/scene/Alteration_14 alpha -1.;
-/ITL/scene/Alteration_15 alpha -1.;  
-/ITL/scene/Alteration_16 alpha -1.; 
-/ITL/scene/Alteration_17 alpha -1.; 
-/ITL/scene/Alteration_18 alpha -1.; 
-/ITL/scene/Alteration_19 alpha -1.; 
+/ITL/scene/* alpha -1.;  
