@@ -4,40 +4,40 @@
 # supprime tous les éléments (si il y en a)
 /ITL/scene/* del;
 
-# fenêtre au noir, sans le support opengl et en pleine écran
+# fenêtre au noir, sans le support opengl et en plein écran
 /ITL/scene color 0 0 0;
 /ITL/scene opengl 0;
 /ITL/scene fullscreen 1;
 
 # assigne des adresses à des objets (photos, textes ... )  
-/ITL/scene/Karlax_00 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//00 Karlax-8983.jpg';     
+/ITL/scene/Karlax_00 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/00 Karlax.jpg';     
 /ITL/scene/Presentation set txt 'Altérations'; 
 /ITL/scene/Sous_titre set txt 'l\'intonation primitive';         
-/ITL/scene/Alteration_1 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//1 Alteration-0756.jpg';     
-/ITL/scene/Alteration_2 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//2 Alteration-1648.jpg';        
-/ITL/scene/Alteration_3 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//3 Alteration-3050.jpg';        
-/ITL/scene/Alteration_4 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//4 Alteration-0205.jpg';        
-/ITL/scene/Alteration_5 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//5 Alteration-1316.jpg';        
-/ITL/scene/Alteration_6 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//6 Alteration-1939.jpg';        
-/ITL/scene/Alteration_7 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//7 Alteration-1948.jpg';        
-/ITL/scene/Alteration_8 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//8 Alteration-36.jpg';          
-/ITL/scene/Alteration_9 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//9 Alteration-8206.jpg';
-/ITL/scene/Alteration_10 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//10 Alteration-9846.jpg';       
-/ITL/scene/Alteration_11 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//11 Alteration-1875.jpg';
-/ITL/scene/Alteration_12 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//12 Alteration-2211.jpg'; 
-/ITL/scene/Alteration_13 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//13 Alteration-7810.jpg'; 
-/ITL/scene/Alteration_14 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//14 Alteration-3156.jpg'; 
-/ITL/scene/Alteration_15 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//15 Alteration-6222.jpg'; 
-/ITL/scene/Alteration_16 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//16 Alteration-2288.jpg'; 
-/ITL/scene/Alteration_17 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//17 Alteration-5204.jpg';
-/ITL/scene/Alteration_18 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//18 Alteration-1951.jpg';
-/ITL/scene/Alteration_19 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//19 Alteration-8031.jpg';
-/ITL/scene/Alteration_20 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//20 Alteration.jpg';
-/ITL/scene/Alteration_21 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//21 Alteration-8026.jpg';
-/ITL/scene/Alteration_22 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//22 Alteration-6818.jpg';
-/ITL/scene/Alteration_23 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//23 Alteration-2588.jpg';
-/ITL/scene/Alteration_24 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//24 Alteration-3106.jpg';
-/ITL/scene/Alteration_25 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration//25 Alteration-6917.jpg';
+/ITL/scene/Alteration_1 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/1 Alteration.jpg';     
+/ITL/scene/Alteration_2 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/2 Alteration.jpg';        
+/ITL/scene/Alteration_3 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/3 Alteration.jpg';        
+/ITL/scene/Alteration_4 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/4 Alteration.jpg';        
+/ITL/scene/Alteration_5 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/5 Alteration.jpg';        
+/ITL/scene/Alteration_6 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/6 Alteration.jpg';        
+/ITL/scene/Alteration_7 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/7 Alteration.jpg';        
+/ITL/scene/Alteration_8 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/8 Alteration.jpg';          
+/ITL/scene/Alteration_9 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/9 Alteration.jpg';
+/ITL/scene/Alteration_10 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/10 Alteration.jpg';       
+/ITL/scene/Alteration_11 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/11 Alteration.jpg';
+/ITL/scene/Alteration_12 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/12 Alteration.jpg'; 
+/ITL/scene/Alteration_13 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/13 Alteration.jpg'; 
+/ITL/scene/Alteration_14 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/14 Alteration.jpg'; 
+/ITL/scene/Alteration_15 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/15 Alteration.jpg'; 
+/ITL/scene/Alteration_16 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/16 Alteration.jpg'; 
+/ITL/scene/Alteration_17 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/17 Alteration.jpg';
+/ITL/scene/Alteration_18 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/18 Alteration.jpg';
+/ITL/scene/Alteration_19 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/19 Alteration.jpg';
+/ITL/scene/Alteration_20 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/20 Alteration.jpg';
+/ITL/scene/Alteration_21 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/21 Alteration.jpg';
+/ITL/scene/Alteration_22 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/22 Alteration.jpg';
+/ITL/scene/Alteration_23 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/23 Alteration.jpg';
+/ITL/scene/Alteration_24 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/24 Alteration.jpg';
+/ITL/scene/Alteration_25 set img '/home/champsonore/Documents/proj/SoloK/medias/Alteration/25 Alteration.jpg';
 
 # assignes nouvelle adresse à certains paramêtres 
 /ITL/scene/Karlax_00 alias '/ITL/scene/Karlax_00/alpha' alpha; 
@@ -173,7 +173,7 @@
 /ITL/scene/* alpha -1.;  
 
 # etage vidéo
-/ITL/scene/Garonne03 set video '/home/champsonore/Documents/proj/SoloK/medias/Alteration//Garonne03.mov';
+/ITL/scene/Garonne03 set video '/home/champsonore/Documents/proj/SoloK/medias/Alteration/Garonne03.mov';
 /ITL/scene/Garonne03 scale 0.67;
 /ITL/scene/Garonne03 alias '/ITL/scene/Garonne03/scale' scale;
 /ITL/scene/Garonne03 alias '/ITL/scene/Garonne03/play' play;
@@ -181,7 +181,7 @@
 /ITL/scene/Garonne03 alias '/ITL/scene/Garonne03/z' z;
 /ITL/scene/Garonne03/z -1.;
 /ITL/scene/Garonne03 alias '/ITL/scene/Garonne03/vdate' vdate;
-/ITL/scene/OdT_Valse_Fini set video '/home/champsonore/Documents/proj/SoloK/medias/Alteration//OdT_Valse_Fini.mov';
+/ITL/scene/OdT_Valse_Fini set video '/home/champsonore/Documents/proj/SoloK/medias/Alteration/OdT_Valse_Fini.mov';
 /ITL/scene/OdT_Valse_Fini scale 0.68;
 /ITL/scene/OdT_Valse_Fini alias '/ITL/scene/OdT_Valse_Fini/scale' scale;
 /ITL/scene/OdT_Valse_Fini alias '/ITL/scene/OdT_Valse_Fini/play' play;
