@@ -1,0 +1,75 @@
+# affiche la fenêtre de messages
+/ITL/log show 1;
+
+# supprime tous les éléments (si il y en a)
+/ITL/scene/* del;
+
+# fenêtre au noir, sans le support opengl et en pleine écran
+/ITL/scene color 0 0 0;
+/ITL/scene opengl 0;
+/ITL/scene fullscreen 1;
+
+# assigne des adresses à des objets (photos, textes ... )  
+/ITL/scene/Presentation set txt 'Metamorphoses'; 
+/ITL/scene/Sous_titre set txt 'irrégulières';         
+
+# assignes nouvelle adresse à certains paramêtres 
+/ITL/scene/Presentation alias '/ITL/scene/Presentation/alpha' alpha; 
+/ITL/scene/Sous_titre alias '/ITL/scene/Sous_titre/alpha' alpha;  
+
+# envoi pour osc learn;
+147.210.110.86:9997/ITL/scene/Presentation "" "";
+147.210.110.86:9997/ITL/scene/Presentation/alpha -1.;
+147.210.110.86:9997/ITL/scene/Sous_titre "" "";
+147.210.110.86:9997/ITL/scene/Sous_titre/alpha -1.;
+
+# redimentionne les images et textes ( taille de caractères )
+/ITL/scene/Presentation fontSize 72;
+/ITL/scene/Sous_titre fontSize 60;  
+
+# repositionne certains objets
+/ITL/scene/Presentation x 0.85;
+/ITL/scene/Presentation y -0.9;
+/ITL/scene/Sous_titre x 1.1;
+/ITL/scene/Sous_titre y -0.7;
+
+# définie la couleur du texte ( blanc ) 
+/ITL/scene/Presentation color 255 255 255;  
+/ITL/scene/Sous_titre color 255 255 255;
+
+# rend transparent tous les objets
+/ITL/scene/* alpha -1.;  
+
+# etage vidéo
+/ITL/scene/Video_1 set video '/home/champsonore/Documents/proj/SoloK/medias/GaronneCopie.mov';
+/ITL/scene/Video_1 alias '/ITL/scene/Video_1/scale' scale;
+/ITL/scene/Video_1 alias '/ITL/scene/Video_1/play' play;
+/ITL/scene/Video_1 alias '/ITL/scene/Video_1/rate' rate;
+/ITL/scene/Video_1 alias '/ITL/scene/Video_1/alpha' alpha;
+/ITL/scene/Video_1 alias '/ITL/scene/Video_1/pos' x y z;
+/ITL/scene/Video_1 alias '/ITL/scene/Video_1/vdate' vdate;
+147.210.110.86:9997/ITL/scene/Video_1 "" "";
+147.210.110.86:9997/ITL/scene/Video_1/scale 1.;
+147.210.110.86:9997/ITL/scene/Video_1/play 0;
+147.210.110.86:9997/ITL/scene/Video_1/rate 1.;
+147.210.110.86:9997/ITL/scene/Video_1/alpha 1.;
+147.210.110.86:9997/ITL/scene/Video_1/pos 0. 0. -1.;
+147.210.110.86:9997/ITL/scene/Video_1/vdate 0;
+
+/ITL/scene/Video_2 set video '/home/champsonore/Documents/proj/SoloK/medias/ValseConvertFs.mp4';
+/ITL/scene/Video_2 alias '/ITL/scene/Video_2/scale' scale;
+/ITL/scene/Video_2 alias '/ITL/scene/Video_2/play' play;
+/ITL/scene/Video_2 alias '/ITL/scene/Video_2/rate' rate;
+/ITL/scene/Video_2 alias '/ITL/scene/Video_2/alpha' alpha;
+/ITL/scene/Video_2 alias '/ITL/scene/Video_2/pos' x y z;
+/ITL/scene/Video_2 alias '/ITL/scene/Video_2/vdate' vdate;
+147.210.110.86:9997/ITL/scene/Video_2 "" "";
+147.210.110.86:9997/ITL/scene/Video_2/scale 1.;
+147.210.110.86:9997/ITL/scene/Video_2/play 0;
+147.210.110.86:9997/ITL/scene/Video_2/rate 1.;
+147.210.110.86:9997/ITL/scene/Video_2/alpha 1.;
+147.210.110.86:9997/ITL/scene/Video_2/pos 0. 0. -1.;
+147.210.110.86:9997/ITL/scene/Video_2/vdate 0;
+
+# envoie le nom de la série une fois chargée
+/ITL/scene watch endPaint (147.210.110.86:9997/ITL/scene/Serie "Video");
