@@ -132,7 +132,7 @@
 147.210.110.86:9997/ITL/scene/Image_17/scale 1.;
 
 # redimentionne les images et textes ( taille de caractères )
-/ITL/scene/Karlax_00 scale 0.258; 
+/ITL/scene/Karlax_00 scale 0.173; 
 /ITL/scene/Presentation fontSize 72;
 /ITL/scene/Sous_titre fontSize 60;  
 /ITL/scene/Image_1 scale 0.198;     
