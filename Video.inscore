@@ -10,8 +10,8 @@
 /ITL/scene fullscreen 1;
 
 # assigne des adresses à des objets (photos, textes ... )  
-/ITL/scene/Presentation set txt 'Metamorphoses'; 
-/ITL/scene/Sous_titre set txt 'irrégulières';         
+/ITL/scene/Presentation set txt 'A definir'; 
+/ITL/scene/Sous_titre set txt 'bientot';         
 
 # assignes nouvelle adresse à certains paramêtres 
 /ITL/scene/Presentation alias '/ITL/scene/Presentation/alpha' alpha; 
@@ -41,7 +41,7 @@
 /ITL/scene/* alpha -1.;  
 
 # etage vidéo
-/ITL/scene/Video_1 set video '/home/champsonore/Documents/proj/SoloK/medias/GaronneCopie.mov';
+/ITL/scene/Video_1 set video '/home/champsonore/Documents/proj/SoloK/medias/Sequence_Video/00 Karlax.mov';
 /ITL/scene/Video_1 alias '/ITL/scene/Video_1/scale' scale;
 /ITL/scene/Video_1 alias '/ITL/scene/Video_1/play' play;
 /ITL/scene/Video_1 alias '/ITL/scene/Video_1/rate' rate;
@@ -50,13 +50,13 @@
 /ITL/scene/Video_1 alias '/ITL/scene/Video_1/vdate' vdate;
 147.210.110.86:9997/ITL/scene/Video_1 "" "";
 147.210.110.86:9997/ITL/scene/Video_1/scale 1.;
-147.210.110.86:9997/ITL/scene/Video_1/play 0;
+147.210.110.86:9997/ITL/scene/Video_1/play 1;
 147.210.110.86:9997/ITL/scene/Video_1/rate 1.;
 147.210.110.86:9997/ITL/scene/Video_1/alpha 1.;
-147.210.110.86:9997/ITL/scene/Video_1/pos 0. 0. -1.;
+147.210.110.86:9997/ITL/scene/Video_1/pos 0. 0. 1.;
 147.210.110.86:9997/ITL/scene/Video_1/vdate 0;
 
-/ITL/scene/Video_2 set video '/home/champsonore/Documents/proj/SoloK/medias/ValseConvertFs.mp4';
+/ITL/scene/Video_2 set video '/home/champsonore/Documents/proj/SoloK/medias/Sequence_Video/01 Lumieres.mov';
 /ITL/scene/Video_2 alias '/ITL/scene/Video_2/scale' scale;
 /ITL/scene/Video_2 alias '/ITL/scene/Video_2/play' play;
 /ITL/scene/Video_2 alias '/ITL/scene/Video_2/rate' rate;
@@ -70,6 +70,84 @@
 147.210.110.86:9997/ITL/scene/Video_2/alpha 1.;
 147.210.110.86:9997/ITL/scene/Video_2/pos 0. 0. -1.;
 147.210.110.86:9997/ITL/scene/Video_2/vdate 0;
+
+/ITL/scene/Video_3 set video '/home/champsonore/Documents/proj/SoloK/medias/Sequence_Video/02 EauCourante.mov';
+/ITL/scene/Video_3 alias '/ITL/scene/Video_3/scale' scale;
+/ITL/scene/Video_3 alias '/ITL/scene/Video_3/play' play;
+/ITL/scene/Video_3 alias '/ITL/scene/Video_3/rate' rate;
+/ITL/scene/Video_3 alias '/ITL/scene/Video_3/alpha' alpha;
+/ITL/scene/Video_3 alias '/ITL/scene/Video_3/pos' x y z;
+/ITL/scene/Video_3 alias '/ITL/scene/Video_3/vdate' vdate;
+147.210.110.86:9997/ITL/scene/Video_3 "" "";
+147.210.110.86:9997/ITL/scene/Video_3/scale 1.;
+147.210.110.86:9997/ITL/scene/Video_3/play 0;
+147.210.110.86:9997/ITL/scene/Video_3/rate 1.;
+147.210.110.86:9997/ITL/scene/Video_3/alpha 1.;
+147.210.110.86:9997/ITL/scene/Video_3/pos 0. 0. -1.;
+147.210.110.86:9997/ITL/scene/Video_3/vdate 0;
+
+/ITL/scene/Video_4 set video '/home/champsonore/Documents/proj/SoloK/medias/Sequence_Video/03 Valse_Converti.mov';
+/ITL/scene/Video_4 alias '/ITL/scene/Video_4/scale' scale;
+/ITL/scene/Video_4 alias '/ITL/scene/Video_4/play' play;
+/ITL/scene/Video_4 alias '/ITL/scene/Video_4/rate' rate;
+/ITL/scene/Video_4 alias '/ITL/scene/Video_4/alpha' alpha;
+/ITL/scene/Video_4 alias '/ITL/scene/Video_4/pos' x y z;
+/ITL/scene/Video_4 alias '/ITL/scene/Video_4/vdate' vdate;
+147.210.110.86:9997/ITL/scene/Video_4 "" "";
+147.210.110.86:9997/ITL/scene/Video_4/scale 1.;
+147.210.110.86:9997/ITL/scene/Video_4/play 0;
+147.210.110.86:9997/ITL/scene/Video_4/rate 1.;
+147.210.110.86:9997/ITL/scene/Video_4/alpha 1.;
+147.210.110.86:9997/ITL/scene/Video_4/pos 0. 0. -1.;
+147.210.110.86:9997/ITL/scene/Video_4/vdate 0;
+
+/ITL/scene/Video_5 set video '/home/champsonore/Documents/proj/SoloK/medias/Sequence_Video/04 LumiereEtLune.mov';
+/ITL/scene/Video_5 alias '/ITL/scene/Video_5/scale' scale;
+/ITL/scene/Video_5 alias '/ITL/scene/Video_5/play' play;
+/ITL/scene/Video_5 alias '/ITL/scene/Video_5/rate' rate;
+/ITL/scene/Video_5 alias '/ITL/scene/Video_5/alpha' alpha;
+/ITL/scene/Video_5 alias '/ITL/scene/Video_5/pos' x y z;
+/ITL/scene/Video_5 alias '/ITL/scene/Video_5/vdate' vdate;
+147.210.110.86:9997/ITL/scene/Video_5 "" "";
+147.210.110.86:9997/ITL/scene/Video_5/scale 1.;
+147.210.110.86:9997/ITL/scene/Video_5/play 0;
+147.210.110.86:9997/ITL/scene/Video_5/rate 1.;
+147.210.110.86:9997/ITL/scene/Video_5/alpha 1.;
+147.210.110.86:9997/ITL/scene/Video_5/pos 0. 0. -1.;
+147.210.110.86:9997/ITL/scene/Video_5/vdate 0;
+
+/ITL/scene/Video_6 set video '/home/champsonore/Documents/proj/SoloK/medias/Sequence_Video/05 Garonne.mov';
+/ITL/scene/Video_6 alias '/ITL/scene/Video_6/scale' scale;
+/ITL/scene/Video_6 alias '/ITL/scene/Video_6/play' play;
+/ITL/scene/Video_6 alias '/ITL/scene/Video_6/rate' rate;
+/ITL/scene/Video_6 alias '/ITL/scene/Video_6/alpha' alpha;
+/ITL/scene/Video_6 alias '/ITL/scene/Video_6/pos' x y z;
+/ITL/scene/Video_6 alias '/ITL/scene/Video_6/vdate' vdate;
+147.210.110.86:9997/ITL/scene/Video_6 "" "";
+147.210.110.86:9997/ITL/scene/Video_6/scale 1.;
+147.210.110.86:9997/ITL/scene/Video_6/play 0;
+147.210.110.86:9997/ITL/scene/Video_6/rate 1.;
+147.210.110.86:9997/ITL/scene/Video_6/alpha 1.;
+147.210.110.86:9997/ITL/scene/Video_6/pos 0. 0. -1.;
+147.210.110.86:9997/ITL/scene/Video_6/vdate 0;
+
+/ITL/scene/Video_7 set video '/home/champsonore/Documents/proj/SoloK/medias/Sequence_Video/06 Pas.mov';
+/ITL/scene/Video_7 alias '/ITL/scene/Video_7/scale' scale;
+/ITL/scene/Video_7 alias '/ITL/scene/Video_7/play' play;
+/ITL/scene/Video_7 alias '/ITL/scene/Video_7/rate' rate;
+/ITL/scene/Video_7 alias '/ITL/scene/Video_7/alpha' alpha;
+/ITL/scene/Video_7 alias '/ITL/scene/Video_7/pos' x y z;
+/ITL/scene/Video_7 alias '/ITL/scene/Video_7/vdate' vdate;
+147.210.110.86:9997/ITL/scene/Video_7 "" "";
+147.210.110.86:9997/ITL/scene/Video_7/scale 1.;
+147.210.110.86:9997/ITL/scene/Video_7/play 0;
+147.210.110.86:9997/ITL/scene/Video_7/rate 1.;
+147.210.110.86:9997/ITL/scene/Video_7/alpha 1.;
+147.210.110.86:9997/ITL/scene/Video_7/pos 0. 0. -1.;
+147.210.110.86:9997/ITL/scene/Video_7/vdate 0;
+
+/ITL/scene/Video_1 scale 0.998;
+/ITL/scene/Video_7 scale 1.336;
 
 # envoie le nom de la série une fois chargée
 /ITL/scene watch endPaint (147.210.110.86:9997/ITL/scene/Serie "Video");
