@@ -53,7 +53,7 @@
 147.210.110.86:9997/ITL/scene/Video_1/play 1;
 147.210.110.86:9997/ITL/scene/Video_1/rate 1.;
 147.210.110.86:9997/ITL/scene/Video_1/alpha 1.;
-147.210.110.86:9997/ITL/scene/Video_1/pos 0. 0. 1.;
+147.210.110.86:9997/ITL/scene/Video_1/pos 0. 0. -1.;
 147.210.110.86:9997/ITL/scene/Video_1/vdate 0;
 
 /ITL/scene/Video_2 set video '/home/champsonore/Documents/proj/SoloK/medias/Sequence_Video/01 Lumieres.mov';
@@ -130,6 +130,21 @@
 147.210.110.86:9997/ITL/scene/Video_6/alpha 1.;
 147.210.110.86:9997/ITL/scene/Video_6/pos 0. 0. -1.;
 147.210.110.86:9997/ITL/scene/Video_6/vdate 0;
+
+/ITL/scene/Video_8 set video '/home/champsonore/Documents/proj/SoloK/medias/Sequence_Video/05 Garonne.mov';
+/ITL/scene/Video_8 alias '/ITL/scene/Video_8/scale' scale;
+/ITL/scene/Video_8 alias '/ITL/scene/Video_8/play' play;
+/ITL/scene/Video_8 alias '/ITL/scene/Video_8/rate' rate;
+/ITL/scene/Video_8 alias '/ITL/scene/Video_8/alpha' alpha;
+/ITL/scene/Video_8 alias '/ITL/scene/Video_8/pos' x y z;
+/ITL/scene/Video_8 alias '/ITL/scene/Video_8/vdate' vdate;
+147.210.110.86:9997/ITL/scene/Video_8 "" "";
+147.210.110.86:9997/ITL/scene/Video_8/scale 1.;
+147.210.110.86:9997/ITL/scene/Video_8/play 0;
+147.210.110.86:9997/ITL/scene/Video_8/rate 1.;
+147.210.110.86:9997/ITL/scene/Video_8/alpha 1.;
+147.210.110.86:9997/ITL/scene/Video_8/pos 0. 0. -1.;
+147.210.110.86:9997/ITL/scene/Video_8/vdate 0;
 
 /ITL/scene/Video_7 set video '/home/champsonore/Documents/proj/SoloK/medias/Sequence_Video/06 Pas.mov';
 /ITL/scene/Video_7 alias '/ITL/scene/Video_7/scale' scale;
