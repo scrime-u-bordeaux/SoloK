@@ -10,8 +10,8 @@
 /ITL/scene fullscreen 1;
 
 # assigne des adresses à des objets (photos, textes ... )  
-/ITL/scene/Presentation set txt 'Altérations'; 
-/ITL/scene/Sous_titre set txt 'ou l\'intonation primitive';         
+/ITL/scene/Presentation set txt 'Atherbea — Passage'; 
+/ITL/scene/Sous_titre set txt '#HorsLesMurs';         
 /ITL/scene/Image_1 set img '/home/champsonore/Documents/proj/SoloK/medias/Passage/Photos_Passage/1 Passage.jpg';     
 /ITL/scene/Image_2 set img '/home/champsonore/Documents/proj/SoloK/medias/Passage/Photos_Passage/2 Passage.jpg';        
 /ITL/scene/Image_3 set img '/home/champsonore/Documents/proj/SoloK/medias/Passage/Photos_Passage/3 Passage.jpg';        
@@ -140,12 +140,16 @@
 /ITL/scene/Image_38 alias '/ITL/scene/Image_38/scale' scale; 
 /ITL/scene/Image_39 alias '/ITL/scene/Image_39/alpha' alpha; 
 /ITL/scene/Image_39 alias '/ITL/scene/Image_39/scale' scale; 
+/ITL/scene/Image_39 alias '/ITL/scene/Image_39/pos' x y;
 /ITL/scene/Image_40 alias '/ITL/scene/Image_40/alpha' alpha; 
 /ITL/scene/Image_40 alias '/ITL/scene/Image_40/scale' scale; 
+/ITL/scene/Image_40 alias '/ITL/scene/Image_40/pos' x y;
 /ITL/scene/Image_41 alias '/ITL/scene/Image_41/alpha' alpha; 
 /ITL/scene/Image_41 alias '/ITL/scene/Image_41/scale' scale; 
+/ITL/scene/Image_41 alias '/ITL/scene/Image_41/pos' x y;
 /ITL/scene/Image_42 alias '/ITL/scene/Image_42/alpha' alpha; 
 /ITL/scene/Image_42 alias '/ITL/scene/Image_42/scale' scale; 
+/ITL/scene/Image_42 alias '/ITL/scene/Image_42/pos' x y; 
 /ITL/scene/Image_43 alias '/ITL/scene/Image_43/alpha' alpha; 
 /ITL/scene/Image_43 alias '/ITL/scene/Image_43/scale' scale; 
 /ITL/scene/Image_44 alias '/ITL/scene/Image_44/alpha' alpha; 
@@ -277,15 +281,19 @@
 147.210.110.86:9997/ITL/scene/Image_39 "" "";
 147.210.110.86:9997/ITL/scene/Image_39/alpha -1.;
 147.210.110.86:9997/ITL/scene/Image_39/scale 1.;
+147.210.110.86:9997/ITL/scene/Image_39/pos 0. 0.;
 147.210.110.86:9997/ITL/scene/Image_40 "" "";
 147.210.110.86:9997/ITL/scene/Image_40/alpha -1.;
 147.210.110.86:9997/ITL/scene/Image_40/scale 1.;
+147.210.110.86:9997/ITL/scene/Image_40/pos 0. 0.;
 147.210.110.86:9997/ITL/scene/Image_41 "" "";
 147.210.110.86:9997/ITL/scene/Image_41/alpha -1.;
 147.210.110.86:9997/ITL/scene/Image_41/scale 1.;
+147.210.110.86:9997/ITL/scene/Image_41/pos 0. 0.;
 147.210.110.86:9997/ITL/scene/Image_42 "" "";
 147.210.110.86:9997/ITL/scene/Image_42/alpha -1.;
-147.210.110.86:9997/ITL/scene/Image_42/scale 1.;
+147.210.110.86:9997/ITL/scene/Image_42/alpha -1.;
+147.210.110.86:9997/ITL/scene/Image_42/pos 0. 0.;
 147.210.110.86:9997/ITL/scene/Image_43 "" "";
 147.210.110.86:9997/ITL/scene/Image_43/alpha -1.;
 147.210.110.86:9997/ITL/scene/Image_43/scale 1.;
@@ -333,7 +341,7 @@
 /ITL/scene/Image_29 scale 0.947;
 /ITL/scene/Image_30 scale 0.964;
 /ITL/scene/Image_31 scale 0.533;
-/ITL/scene/Image_32 scale 0.230;
+/ITL/scene/Image_32 scale 0.211;
 /ITL/scene/Image_33 scale 0.181;
 /ITL/scene/Image_34 scale 0.153;
 /ITL/scene/Image_35 scale 0.710;
@@ -342,8 +350,10 @@
 /ITL/scene/Image_38 scale 0.953;
 /ITL/scene/Image_39 scale 0.628;
 /ITL/scene/Image_40 scale 0.628;
-/ITL/scene/Image_41 scale 0.223;
-/ITL/scene/Image_42 scale 0.454;
+#/ITL/scene/Image_41 scale 0.223;
+#/ITL/scene/Image_42 scale 0.454;
+/ITL/scene/Image_41 scale 0.088;
+/ITL/scene/Image_42 scale 0.205;
 /ITL/scene/Image_43 scale 0.367;
 /ITL/scene/Image_44 scale 1.053;
 /ITL/scene/Image_45 scale 0.268;
@@ -356,6 +366,10 @@
 /ITL/scene/Presentation y 0.6;
 /ITL/scene/Sous_titre x 0.65;
 /ITL/scene/Sous_titre y 0.75;
+/ITL/scene/Image_41 x -0.707;
+/ITL/scene/Image_42 x 0.707;
+/ITL/scene/Image_41 y 0.49;
+/ITL/scene/Image_42 y 0.49;
 
 # définie la couleur du texte ( blanc ) 
 /ITL/scene/Presentation color 255 255 255;  
