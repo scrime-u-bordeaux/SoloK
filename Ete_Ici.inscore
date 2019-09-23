@@ -11,8 +11,8 @@
 
 # assigne des adresses à des objets (photos, textes ... )  
 /ITL/scene/Karlax_00 set img '/home/champsonore/Documents/proj/SoloK/medias/Ete_Ici/00 Karlax.jpg';     
-/ITL/scene/Presentation set txt 'Été'; 
-/ITL/scene/Sous_titre set txt 'Ici';         
+/ITL/scene/Presentation set txt 'Dora M.'; 
+/ITL/scene/Sous_titre set txt 'ou l\'instant du milieu';         
 /ITL/scene/Image_1 set img '/home/champsonore/Documents/proj/SoloK/medias/Ete_Ici/1 Ete_Ici.jpg';     
 /ITL/scene/Image_2 set img '/home/champsonore/Documents/proj/SoloK/medias/Ete_Ici/2 Ete_Ici.jpg';        
 /ITL/scene/Image_3 set img '/home/champsonore/Documents/proj/SoloK/medias/Ete_Ici/3 Ete_Ici.jpg';        
@@ -179,7 +179,7 @@
 # repositionne certains objets
 /ITL/scene/Presentation x 1;
 /ITL/scene/Presentation y 0.65;
-/ITL/scene/Sous_titre x 1.3;
+/ITL/scene/Sous_titre x 0.5;
 /ITL/scene/Sous_titre y 0.8;
 
 # définie la couleur du texte ( blanc ) 

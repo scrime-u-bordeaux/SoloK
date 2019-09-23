@@ -1,3 +1,4 @@
+
 # affiche la fenêtre de messages
 /ITL/log show 1;
 
@@ -224,3 +225,18 @@
 
 # envoie le nom de la série une fois chargée
 /ITL/scene watch endPaint (147.210.110.86:9997/ITL/scene/Serie "Alteration");
+
+    © 2019 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
+
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
