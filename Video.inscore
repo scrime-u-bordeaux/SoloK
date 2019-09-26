@@ -10,8 +10,8 @@
 /ITL/scene fullscreen 1;
 
 # assigne des adresses à des objets (photos, textes ... )  
-/ITL/scene/Presentation set txt 'A definir'; 
-/ITL/scene/Sous_titre set txt 'bientot';         
+/ITL/scene/Presentation set txt 'Conclusion ?'; 
+/ITL/scene/Sous_titre set txt 'Laisser la précédente imparfaite...';         
 
 # assignes nouvelle adresse à certains paramêtres 
 /ITL/scene/Presentation alias '/ITL/scene/Presentation/alpha' alpha; 
@@ -28,10 +28,12 @@
 /ITL/scene/Sous_titre fontSize 60;  
 
 # repositionne certains objets
-/ITL/scene/Presentation x 0.85;
-/ITL/scene/Presentation y -0.9;
-/ITL/scene/Sous_titre x 1.1;
-/ITL/scene/Sous_titre y -0.7;
+/ITL/scene/Presentation x 0.9;
+/ITL/scene/Presentation y 0.6;
+/ITL/scene/Presentation z 1.;
+/ITL/scene/Sous_titre x 0.65;
+/ITL/scene/Sous_titre y 0.75;
+/ITL/scene/Sous_titre z 1.;
 
 # définie la couleur du texte ( blanc ) 
 /ITL/scene/Presentation color 255 255 255;  

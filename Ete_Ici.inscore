@@ -177,10 +177,10 @@
 /ITL/scene/Image_20 scale 0.246;
 
 # repositionne certains objets
-/ITL/scene/Presentation x 1;
-/ITL/scene/Presentation y 0.65;
-/ITL/scene/Sous_titre x 0.5;
-/ITL/scene/Sous_titre y 0.8;
+/ITL/scene/Presentation x 0.9;
+/ITL/scene/Presentation y 0.6;
+/ITL/scene/Sous_titre x 0.65;
+/ITL/scene/Sous_titre y 0.75;
 
 # définie la couleur du texte ( blanc ) 
 /ITL/scene/Presentation color 255 255 255;  

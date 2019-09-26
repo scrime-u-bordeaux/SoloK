@@ -135,7 +135,7 @@
 /ITL/scene/Karlax_00 scale 0.173; 
 /ITL/scene/Presentation fontSize 72;
 /ITL/scene/Sous_titre fontSize 60;  
-/ITL/scene/Image_1 scale 0.198;     
+/ITL/scene/Image_1 scale 0.231;     
 /ITL/scene/Image_2 scale 0.245;        
 /ITL/scene/Image_3 scale 0.215;        
 /ITL/scene/Image_4 scale 0.203;        
@@ -145,8 +145,8 @@
 /ITL/scene/Image_8 scale 0.421;          
 /ITL/scene/Image_9 scale 0.211;
 /ITL/scene/Image_10 scale 0.202; 
-/ITL/scene/Image_11 scale 0.201;
-/ITL/scene/Image_12 scale 0.235;
+/ITL/scene/Image_11 scale 0.235;
+/ITL/scene/Image_12 scale 0.219;
 /ITL/scene/Image_13 scale 0.230;
 /ITL/scene/Image_14 scale 0.212;
 /ITL/scene/Image_15 scale 0.605;
